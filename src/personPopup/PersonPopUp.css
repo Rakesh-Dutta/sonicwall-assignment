@@ -15,6 +15,7 @@
   margin: 100px auto;
   background: white;
   padding: 50px;
+  border-radius: 5px;
 }
 .pop-up-item {
   text-align: left;
