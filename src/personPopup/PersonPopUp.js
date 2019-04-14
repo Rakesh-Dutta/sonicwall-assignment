@@ -20,7 +20,7 @@ export default class PersonPopUp extends React.Component {
           <div className="pop-up-item">{`PHONE : ${person.phone}`}</div>
           <div className="pop-up-item">{`ADDRESS : ${person.address}`}</div>
           <div className="pop-up-item">{`MARITAL_STATUS : ${
-            person.marital_status ? "Yes" : "No"
+            person.marital_status ? "Married" : "Unmarried"
           }`}</div>
         </div>
       </div>

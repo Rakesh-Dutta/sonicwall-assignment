@@ -23,7 +23,7 @@ export default class GetRow extends React.Component {
             <span className="wd-15">{person.phone}</span>
             <span className="wd-25">{person.address}</span>
             <span className="wd-10">
-              {person.marital_status ? "Yes" : "No"}
+              {person.marital_status ? "Married" : "Unmarried"}
             </span>
           </div>
         </div>
